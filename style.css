@@ -62,5 +62,6 @@ body{
     position: fixed;
     left:100%;
     top:-5%;
+    z-index:1;
 
 }
