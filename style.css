@@ -27,7 +27,7 @@ body{
 }
 
 #article{
-    font-size: 2em;
+    font-size: 1.7rem;
     height: 60%;
     width:95%;
     background-color: rgb(57, 48, 48,0);
@@ -48,7 +48,7 @@ body{
     position:fixed;
     left:85%;
     top:85%;
-    font-size:2em;
+    font-size:1.7rem;
     box-sizing: border-box;
 
 }
