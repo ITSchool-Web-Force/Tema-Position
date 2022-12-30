@@ -18,7 +18,7 @@ body{
 }
 
 #titlu{
-    font-size: 3rem;
+    font-size: 5rem;
     color:white;
     font-weight: bold;
     padding-inline-start: 1ch;
@@ -27,8 +27,8 @@ body{
 
 #article{
     font-size: 2em;
-    height: 70%;
-    width:80%;
+    height: 60%;
+    width:95%;
     background-color: rgb(57, 48, 48,0);
     position:fixed;
     left:50%;
