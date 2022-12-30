@@ -7,8 +7,8 @@ body{
 }
 
 #container{
-    height:30vw;
-    width:80%;
+    height:60vh;
+    width:63%;
     background: radial-gradient(rgba(71,75,84,255),rgba(43,47,56,255));
     position:fixed;
     left:50%;
