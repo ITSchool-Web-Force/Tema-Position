@@ -20,6 +20,8 @@ body{
     font-size: 3rem;
     color:white;
     font-weight: bold;
+    padding-inline-start: 1ch;
+    padding-block-start:1ch;
 }
 
 #article{
