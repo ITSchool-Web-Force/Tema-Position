@@ -3,13 +3,13 @@
 }
 
 body{
-    background: grey;
+    background:rgba(204,204,204,255);
 }
 
 #container{
-    height:50vw;
-    width:50vh;
-    background-color: rgb(87, 90, 89);
+    height:30vw;
+    width:80%;
+    background: radial-gradient(grey,black);
     position:fixed;
     left:50%;
     top:50%;
