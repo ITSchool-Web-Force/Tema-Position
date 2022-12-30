@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond&display=swap');
+
+
+
 :root{
     font-size: 10px;
 }
@@ -65,5 +69,6 @@ body{
     font-size: 3rem;
     color:white;
     font-weight: bold;
+    font-family: 'Nunino', sans-serif;
 
 }
