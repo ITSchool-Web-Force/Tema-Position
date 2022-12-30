@@ -1,5 +1,5 @@
 :root{
-    font-size: 12rem;
+    font-size: 12px;
 }
 
 body{
@@ -14,4 +14,8 @@ body{
     left:50%;
     top:50%;
     transform: translate(-50%);
+}
+
+#titlu{
+    font-size: 3rem;
 }
