@@ -9,7 +9,7 @@ body{
 #container{
     height:50vw;
     width:50vh;
-    background-color: aquamarine;
+    background-color: rgb(87, 90, 89);
     position:fixed;
     left:50%;
     top:50%;
