@@ -75,5 +75,6 @@ body{
     color:white;
     font-weight: bold;
     font-family: 'Balsamiq Sans', cursive;
+    box-shadow: 0.1ch 0.1ch 2ch rgb(48, 47, 47);
 
 }
