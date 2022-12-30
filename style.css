@@ -13,7 +13,7 @@ body{
     position:fixed;
     left:50%;
     top:50%;
-    transform: translate(-50%);
+    transform: translate(-50%,-50%);
 }
 
 #titlu{
@@ -21,10 +21,13 @@ body{
 }
 
 #article{
-    height:20vw;
-    width:30vh;
+    height:30vw;
+    width:50vh;
     background-color: rgb(57, 48, 48);
     position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
     color:white;
 }
 #buton{
