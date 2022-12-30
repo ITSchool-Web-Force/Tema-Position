@@ -1,5 +1,5 @@
 :root{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 body{
@@ -25,16 +25,19 @@ body{
 }
 
 #article{
-    height:30vw;
-    width:50vh;
+    font-size: 1rem;
+    height:45%;
+    width:90%;
     background-color: rgb(57, 48, 48,0);
     position:fixed;
     left:50%;
-    top:50%;
+    top:30%;
     transform:translate(-50%,-50%);
     color:white;
-    inset-block-start: 50%;
+    inset-block-start: 70%;
     inset-block-end:1%;
+    border-top: 0.2ch solid white;
+    border-bottom: 0.2ch solid white;
 }
 #buton{
     background-color: rgba(69,78,90,255);
@@ -44,5 +47,6 @@ body{
     position:fixed;
     left:90%;
     top:90%;
+    font-size:1rem;
 
 }
