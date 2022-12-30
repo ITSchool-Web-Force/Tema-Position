@@ -19,3 +19,10 @@ body{
 #titlu{
     font-size: 3rem;
 }
+
+#article{
+    height:20vw;
+    width:30vh;
+    background-color: rgb(57, 48, 48);
+    position:fixed;
+}
