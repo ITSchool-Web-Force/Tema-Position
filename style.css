@@ -18,12 +18,14 @@ body{
 
 #titlu{
     font-size: 3rem;
+    color:white;
+    font-weight: bold;
 }
 
 #article{
     height:30vw;
     width:50vh;
-    background-color: rgb(57, 48, 48);
+    background-color: rgb(57, 48, 48,0);
     position:fixed;
     left:50%;
     top:50%;
@@ -33,7 +35,12 @@ body{
     inset-block-end:1%;
 }
 #buton{
-    background-color: bisque;
-    left:80%;
-    top:80%;
+    background-color: rgba(69,78,90,255);
+    border-radius:0.3rem;
+    padding-inline:2ch;
+    padding-block:1ch;
+    position:fixed;
+    left:90%;
+    top:90%;
+
 }
