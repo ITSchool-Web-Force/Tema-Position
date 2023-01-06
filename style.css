@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+
+:root {
+  --white: #eee;
+}
+
+body {
+  background: rgb(196, 137, 137);
+}
+
+section {
+  position: fixed;
+  background: radial-gradient(rgb(83, 85, 90), rgb(41, 45, 54));
+  height: 90vh;
+  width: 65%;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  border-radius: 0.4rem;
+}
+
+header {
+  padding-top: 4rem;
+  color: var(--white);
+  font-family: cursive;
+  padding-inline-start: 2rem;
+}
+
+article {
+  border-top: 0.2rem solid var(--white);
+  border-bottom: 0.2rem solid var(--white);
+  color: var(--white);
+  position: fixed;
+  font-size: 1rem;
+  height: 50%;
+  width: 93%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: scroll;
+}
+
+article::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  position: fixed;
+  right: 2rem;
+  top: 80%;
+}
+
+#close-modal {
+  background: rgb(19, 24, 53);
+  color: var(--white);
+  position: fixed;
+  box-sizing: content-box;
+  top: -1.87rem;
+  left: unset;
+  right: -1.87rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 1.5rem;
+  border: none;
+  box-shadow: 0.2rem 0.2rem 1.25rem rgb(85, 83, 83);
+}
