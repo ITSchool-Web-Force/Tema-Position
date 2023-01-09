@@ -13,7 +13,7 @@ body{
     display:block;
     font-size: 2rem;
     font-weight: bold;
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 .modal-content {
     padding: 1rem;
