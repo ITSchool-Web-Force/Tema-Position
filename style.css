@@ -18,12 +18,14 @@ body{
 .modal-content {
     padding: 1rem;
     border-block: 0.1rem solid white;
+    margin-bottom: 3.5em;
 }
 .close {
     position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 0;
+    transform: translate(50%, -50%);
     font-size: 2rem;
-    right: -0.7rem;
-    top: -1rem;
     padding: 0.3rem;
     background-color: #44444b;
     border-radius: 50%;
@@ -34,15 +36,14 @@ body{
     background-color: red;
 }
 .ok {
+    position:fixed;
     color: white;
-    float: right;
     padding: 0.6rem;
     background-color: #44444b;
-    bottom: 1rem;
-    right: 1rem;
+    inset-block-end: 1rem;
+    inset-inline-end: 1rem;
+    transform: translate(10%, 10%);
     border-radius: 8px;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
     border: 0;
 }
 .ok:hover{
