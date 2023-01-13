@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema-Position</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Jua&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #e5e5e5;
+      }
+      .modal {
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #42454c 0%,
+          #25282e 100%
+        );
+        border-radius: 0.5rem;
+        width: 68rem;
+        padding: 2rem 2rem;
+        margin: 12rem 20rem;
+        position: fixed;
+      }
+      .close-button {
+        color: #fff;
+        font-size: 3rem;
+        font-family: "Jua", sans-serif;
+        font-weight: 400;
+
+        background: #44444b;
+        box-shadow: 0px 3px 32px #000000;
+        border-radius: 5rem;
+        border: none;
+        padding: 0.1rem 1.2rem;
+        cursor: pointer;
+        position: absolute;
+        right: -2rem;
+        top: -2.2rem;
+      }
+      h1 {
+        font-size: 4.88rem;
+        font-family: "Inter", sans-serif;
+        font-weight: 900;
+        color: #fff;
+        margin-bottom: 1rem;
+      }
+      .modal-text {
+        font-size: 1rem;
+        font-family: "Inter", sans-serif;
+        color: #fff;
+        padding: 1rem 0;
+        border-block: 1px solid #dbdbdb;
+      }
+      p {
+        margin-bottom: 1rem;
+      }
+      .modal-text p:last-child {
+        margin-bottom: 0;
+      }
+      .accept-button {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+        background: #3d4450;
+        border-radius: 8px;
+        border: none;
+
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        transform: translateX(55rem);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="modal">
+      <button class="close-button">x</button>
+      <h1>Acesta este un modal</h1>
+      <div class="modal-text">
+        <p>
+          Landjaeger tongue kielbasa turkey alcatra. Ground round drumstick
+          doner shankle rump pork chop pork salami prosciutto. Leberkas swine
+          chislic ribeye corned beef frankfurter tri-tip jowl meatloaf
+          tenderloin tongue bresaola short ribs. Bresaola sausage tongue pork,
+          pork belly hamburger spare ribs rump sirloin buffalo picanha venison.
+          Shankle bresaola ground round leberkas short ribs sausage andouille
+          beef pig pastrami boudin rump salami.
+        </p>
+        <p>
+          Spare ribs minim flank, voluptate in sed sunt ipsum leberkas chuck.
+          Sausage nisi esse, jowl incididunt capicola sirloin. Tri-tip ullamco
+          officia, lorem sausage sed buffalo culpa in incididunt ground round
+          duis. Velit est tri-tip sed, irure chislic landjaeger occaecat
+          consectetur drumstick excepteur venison short loin incididunt doner.
+          Turducken velit voluptate hamburger turkey, frankfurter minim
+          consectetur tenderloin occaecat spare ribs.
+        </p>
+        <p>
+          Tongue meatloaf sint laborum pork shoulder adipisicing doner voluptate
+          aute est officia t-bone mollit. Veniam flank fugiat deserunt,
+          landjaeger sunt cupim. Velit duis salami, pork pork loin short loin
+          aute burgdoggen fatback. Dolore short ribs eiusmod bacon leberkas
+          meatball short loin aliqua landjaeger sed pork chop ea. Nostrud
+          buffalo cow, nulla lorem ipsum corned beef meatloaf doner t-bone.
+        </p>
+        <p>
+          Occaecat dolore bresaola qui. Enim burgdoggen est meatball pork chop
+          buffalo, esse et prosciutto jowl. Consectetur commodo kevin jowl,
+          filet mignon velit biltong sausage in ground round doner enim salami.
+          Brisket chislic labore in leberkas. Incididunt ut doner, enim
+          consectetur fugiat in burgdoggen bresaola laboris proident.
+        </p>
+      </div>
+      <button class="accept-button">Am înțeles</button>
+    </main>
+  </body>
+</html>
