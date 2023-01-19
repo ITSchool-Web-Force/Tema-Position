@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Jua&display=swap');
+
+@font-face {
+    font-family: 'Krinkes';
+    src: url(./KrinkesRegularPERSONAL.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Krinkes';
+    src: url(KrinkesDecorPERSONAL.ttf) format('truetype');
+    font-weight: 700;
+}
+
+.modal h1 {
+    font-family: 'Krinkes' !important;
+    font-weight: 400 !important;
+}
+
+body {
+    background: #00000033;
+    font-family: 'Inter', sans-serif;
+}
+
+.modal-content::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #42454C;        /* color of the tracking area */
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background-color: #fff;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #42454C;  /* creates padding around scroll thumb */
+}
+.modal-content {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: blue #42454C;   /* scroll thumb and track */ 
+}
+  
+
+.modal {
+    background: radial-gradient(50% 50% at 50% 50%, #42454C 0%, #25282E 100%);
+    border-radius: 0.5rem;
+    padding: 2rem 3rem 2rem 2rem;
+    width: 60%;
+    min-height: 60%;
+    color: #fff;
+    position: fixed;
+    inset: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+}
+
+#modal-toggle {
+    appearance: none;
+    border: 1px solid red;
+}
+
+#modal-toggle::before {
+    content: "Open modal";
+
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    display: block;
+    position: fixed;
+    inset: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#modal-toggle:checked + .modal {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal:focus-within {
+    outline: 1rem solid red;
+}
+
+.modal h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 6rem;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.modal-content {
+    border-block: 1px solid #DBDBDB;
+    padding-block: 1rem;
+    margin-block: 1rem;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.modal-content p:first-child::first-line {
+    color: red;
+}
+
+.modal-footer {
+    text-align: end;
+}
+
+.modal-submit {
+    background: #3D4450;
+    color: #fff;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.modal-submit:focus {
+    box-shadow: 0 0 1rem red;
+    outline: 0.25rem solid #fff;
+}
+
+.modal-close {
+    --button-size: 4.3rem;
+
+    background: #44444B;
+    box-shadow: 0px 0.25rem 2rem #000000;
+    border-radius: 50%;
+    color: #fff;
+    border: 0;
+    font-family: 'Jua', sans-serif;
+    font-size: 4rem;
+    line-height: var(--button-size);
+    text-align: center;
+    width: var(--button-size);
+    height: var(--button-size);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%,-50%);
+    transition: all 1s;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    --button-size: 6.3rem;
+}
